@@ -6,14 +6,14 @@
 Fork, download or clone this repository
 ```
 
-####If you want to run it from my C file:
+#### If you want to run it from my C file:
 ```
 
 gcc --static -g -Wl,--omagic -o helloworldx86 helloworldx86.c
 ./helloworldx86
 ```
 
-####If you have your own C file or want the hexa values:
+#### If you have your own C file or want the hexa values:
 ```
 
 nasm -f elf64 helloworldx86.asm
